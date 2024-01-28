@@ -25,12 +25,7 @@ int main() {
 
     reverseString(str);
 
-    char *current = str;
-    while (*current != '\0') {
-        putchar(*current);
-        current++;
-    }
-    putchar('\n');
+    printf("Reversed String: %s\n", str);
 
     return 0;
 }
